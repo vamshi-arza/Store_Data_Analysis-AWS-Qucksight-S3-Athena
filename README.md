@@ -20,3 +20,15 @@ Superstore Sales Data: A dataset from [Kaggle](https://www.kaggle.com/datasets/v
 - AWS Athena - Query service used to perform SQL queries on the final table created by AWS Glue.
 - AWS QuickSight - Business intelligence service used for data visualization and creating insights from the dataset.
 
+### Exploratory Data Analysis (EDA)
+
+- Data Profiling - Analyzed basic statistics for key variables in the dataset, such as sales, profit, and order quantity.
+- Time-Based Analysis - Examined trends over the dates, including daily sales and order volumes for the specific dates 2017-01-01 and 2017-01-02.
+- Sales and Profit Analysis - Assessed total sales and profit margins, identifying any significant variations between different dates and regions.
+- Geographical Analysis - Investigated sales performance by region and city to pinpoint areas with the highest and lowest sales.
+- Customer Insights - Analyzed order data to identify key customer segments and purchasing behaviors.
+- Visualization - Utilized AWS QuickSight to create visualizations, including charts and graphs, to reveal patterns and insights in the data.
+
+### Conclusion
+
+This project demonstrates the effective use of AWS services for managing and analyzing a retail dataset. By leveraging AWS S3 for storage, AWS Glue for data cataloging and ETL operations, AWS Athena for querying, and AWS QuickSight for visualization, a comprehensive analysis was performed on the Superstore dataset. The results provided valuable insights into sales performance, profitability, and customer preferences across different cities, product categories, and shipping modes. These findings can guide strategic decisions to enhance sales, optimize inventory, and improve overall customer satisfaction.
