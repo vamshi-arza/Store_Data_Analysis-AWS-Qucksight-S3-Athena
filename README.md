@@ -1,7 +1,8 @@
 # Superstore Data Analysis Using AWS Services
 
 ### Project Architecture 
-![archtec_store_analysis](https://github.com/user-attachments/assets/43172bc6-6cac-41e1-8190-b06bb5962648)
+
+![proj diag](https://github.com/user-attachments/assets/adfbd78c-f324-4496-897b-73912a7f3d64)
 
 ### Project Overview
 
