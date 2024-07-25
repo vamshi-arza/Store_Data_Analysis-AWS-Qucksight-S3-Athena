@@ -4,6 +4,14 @@
 
 ![proj diag](https://github.com/user-attachments/assets/adfbd78c-f324-4496-897b-73912a7f3d64)
 
+### Table of Contents
+
+1. [Project Overview](project-overview)
+2. [Data Source](#data-source)
+3. [Tools Used](#tools-used)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Conclusion](#conclusion)
+
 ### Project Overview
 
 The Superstore Data Analysis project utilized a dataset from Kaggle to perform comprehensive data processing and analysis using various AWS services. The project began by filtering the order_date column to create separate files for specific dates, which were then uploaded to an Amazon S3 bucket. AWS Glue was used to create a database and a crawler to index the data, combining tables from multiple dates. AWS Athena facilitated querying the consolidated data, and AWS QuickSight was employed for data visualization. This project demonstrates the integration of AWS services for efficient data handling, processing, and visualization to derive actionable insights from the superstore dataset.
@@ -20,7 +28,7 @@ Superstore Sales Data: A dataset from [Kaggle](https://www.kaggle.com/datasets/v
 - AWS Athena - Query service used to perform SQL queries on the final table created by AWS Glue.
 - AWS QuickSight - Business intelligence service used for data visualization and creating insights from the dataset.
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis
 
 - Data Profiling - Analyzed basic statistics for key variables in the dataset, such as sales, profit, and order quantity.
 - Time-Based Analysis - Examined trends over the dates, including daily sales and order volumes for the specific dates 2017-01-01 and 2017-01-02.
